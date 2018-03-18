@@ -1,0 +1,84 @@
+/*
+wifL
+web interface for LGSM
+Copyright (C) 2018 zero <zero@gamingsamurai.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : Mar 16, 2018, 5:38:30 PM
+    Author     : zero <zero@gamingsamurai.com>
+*/
+
+/* 
+TODO create styles and/or sheets for mobile, etc. 
+*/
+
+/* 
+Let's zero everything out to start and use overrides when appropriate, creating a tight, clean look - zero 
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  vertical-align: top;
+}
+font {
+  color: #000000;
+  size: 18px;
+}
+
+/* 
+Define primary section styles - zero 
+*/
+.header {
+  height: 60px;
+  background-color: #cc0000;
+}
+.menu {
+  height: 20px;
+  background-color: #000000;
+}
+.mainContent {
+  position: absolute;
+  top: 80px;
+  bottom: 28px;
+  width: 100%;
+}
+.footer {
+  height: 28px;
+  padding: auto;
+  background-color: #cfcfcf;  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 
+Further define sections by element - zero
+*/
+.header p {
+  color: #000000;
+}
+.header h1 {
+  color: #000000;
+}
+.menu a {
+  color: #ffffff;
+}
+.mainContent a {
+  color: #cc0000;
+}
